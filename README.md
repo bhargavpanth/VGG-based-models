@@ -1,0 +1,1 @@
+Project consists of VGG16 VGG19 and a baseline model that was used in my visual recognition project for drone. Will update the README as I go along
