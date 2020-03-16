@@ -28,3 +28,10 @@ class VGG_16(CNN_Model):
 
     def build(self, output_classes: int):
         return self.__sequential(output_classes)
+
+# To compile the model
+# vgg_16_model = VGG_16().build(2)
+# vgg_16_model.compile(optimizer=Adam(learning_rate=0.0001), loss='categorical_crossentropy', metrics=['accuracy']) 
+
+# To run it on training set
+# vgg_16_model.fit()
